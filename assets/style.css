@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color:lightblue;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.section{
+    width:100%;
+    margin:0;
+    padding: 0;
+    background-color:#f5f8fa;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+#nav-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+#nav-content-left{
+    margin-left: 30px;
+}
+#nav-content-right{
+    margin-right: 30px;
+}
+.nav-text{
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1em;
+    font-weight: 450;
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif !important;
+}
+.nav-clickable:hover{
+    cursor: pointer;
+    background-color: #f5f8fa;
+    background-color: rgba(102, 153, 153, 0.1);
+}
+#head-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.head-content{
+    margin: 20px;
+}
+
+.head-intro-text{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    color:#373d41;
+}
+#head-content-right{
+    width: 60%;
+}
+.head-intro-link{
+    font-weight: 500;
+    color: #02121d;
+}
+.head-intro-link:hover{
+    color:#0b7fcc;
+}
+#profile-img{
+    border-radius: 50%;
+    border-width:5px;
+    border-style: solid;
+    border-color: lightgray;
+    border-color: rgba(100,100,100, 0.15);
+}
+#profile-text{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #3a4145;
+    font-family: helvetica neue,Helvetica,sans-serif !important;
+}
+.profile-content{
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
