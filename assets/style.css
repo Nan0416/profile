@@ -161,12 +161,16 @@ a, a:hover, a:focus, a:active {
     margin:2px;
     font-size: 1em;
 }
+.experience-head-left .experience-head-text{
+    font-weight: 500;
+}
 #project-section{
     padding: 40px;
     box-sizing: border-box;
     background-color: #ffffff;
 }
 .project-head-title{
+    font-weight: 500;
     font-size: 1em;
 }
 .project-head-link{
@@ -194,18 +198,20 @@ a, a:hover, a:focus, a:active {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.project-body-text{
+    font-family: merriweather,serif !important;
+}
 .project-image{
     width: 300px;
     height: auto;
 }
 .project-intro{
     width: 60%;
-    background-color: red;
 }
 @media screen and (max-width: 839px) {
     .project-image{
         width: 200px;
-        height: auto;
+        height: 200px;
     }
 }
 @media screen and (max-width: 636px) {
