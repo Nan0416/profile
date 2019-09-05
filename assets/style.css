@@ -2,7 +2,8 @@ body{
     margin: 0;
     border: 0;
     padding: 0;
-    background-color:lightblue;
+    background-color:gray;
+    background-color: rgba(0,0,0,0.1);
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -14,7 +15,7 @@ a, a:hover, a:focus, a:active {
     padding: 0;
     background-color:#f5f8fa;
     border: 0;
-    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.3);
 }
 #nav-section{
     display: flex;
@@ -140,7 +141,7 @@ a, a:hover, a:focus, a:active {
 #experience-section{
     padding: 40px;
     box-sizing: border-box;
-    background-color:white;
+    background-color:#ffffff;
 }
 .experience-content{
     padding-bottom: 20px;
@@ -155,9 +156,63 @@ a, a:hover, a:focus, a:active {
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
-.experiencexpr-head-text{
+.experience-head-text{
     padding:0px;
     margin:2px;
+    font-size: 1em;
+}
+#project-section{
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.project-head-title{
+    font-size: 1em;
+}
+.project-head-link{
+    color:#0b7fcc;
+}
+.project-head-text{
+    padding: 0px;
+    margin: 2px;
+
+}
+.project-head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.project-content{
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.project-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-image{
+    width: 300px;
+    height: auto;
+}
+.project-intro{
+    width: 60%;
+    background-color: red;
+}
+@media screen and (max-width: 839px) {
+    .project-image{
+        width: 200px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 636px) {
+    .project-image{
+        width: 150px;
+        height: 100px;
+    }
 }
 @media screen and (max-width: 480px) {
     #experience-section{
@@ -165,6 +220,17 @@ a, a:hover, a:focus, a:active {
     }
 }
 @media screen and (max-width: 580px) {
+    .project-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .project-image{
+        display: none;
+    }
+    .project-intro{
+        width: 100%;
+    }
     #head-section{
         padding-top: 30px;
         padding-bottom: 30px;
