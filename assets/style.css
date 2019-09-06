@@ -192,6 +192,9 @@ a, a:hover, a:focus, a:active {
     padding: 20px 0px 20px 0px;
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
+#last-project-content{
+    border-bottom: 0px !important;
+}
 .project-body{
     display: flex;
     flex-direction: row;
