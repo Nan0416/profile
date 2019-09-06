@@ -42,7 +42,11 @@ a, a:hover, a:focus, a:active {
     line-height: 50px;
     font-size: 1em;
     font-weight: 450;
-    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif !important;
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+}
+#nav-name-text{
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-size: 1em;
 }
 .nav-clickable:hover{
     cursor: pointer;
@@ -91,7 +95,7 @@ a, a:hover, a:focus, a:active {
     font-size: 2.3em;
     font-weight: bold;
     color: #3a4145;
-    font-family: helvetica neue,Helvetica,sans-serif !important;
+    font-family: "Comic Sans MS",helvetica neue,Helvetica,sans-serif !important;
 }
 .profile-content{
     display: block;
@@ -164,6 +168,10 @@ a, a:hover, a:focus, a:active {
 .experience-head-left .experience-head-text{
     font-weight: 500;
 }
+.experience-body-text{
+    color:#373d41;
+
+}
 #project-section{
     padding: 40px;
     box-sizing: border-box;
@@ -202,7 +210,7 @@ a, a:hover, a:focus, a:active {
     justify-content: space-around;
 }
 .project-body-text{
-    font-family: merriweather,serif !important;
+    color:#373d41;
 }
 .project-image{
     width: 300px;
@@ -262,5 +270,8 @@ a, a:hover, a:focus, a:active {
     .experience-head-right{
         text-align: left;
     }
-    
+    #nav-name-text{
+        font-family: "Comic Sans MS";
+        font-size: 1.2em;
+    }
 }
