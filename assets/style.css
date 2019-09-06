@@ -95,7 +95,7 @@ a, a:hover, a:focus, a:active {
     font-size: 2.3em;
     font-weight: bold;
     color: #3a4145;
-    font-family: "Comic Sans MS",helvetica neue,Helvetica,sans-serif !important;
+    font-family: "Comic Sans MS", 'Lobster Two',helvetica neue,Helvetica,sans-serif !important;
 }
 .profile-content{
     display: block;
@@ -216,6 +216,10 @@ a, a:hover, a:focus, a:active {
     width: 300px;
     height: auto;
 }
+.project-image img{
+    width: 100%;
+    height: auto;
+}
 .project-intro{
     width: 60%;
 }
@@ -271,7 +275,7 @@ a, a:hover, a:focus, a:active {
         text-align: left;
     }
     #nav-name-text{
-        font-family: "Comic Sans MS";
+        font-family: "Comic Sans MS",'Lobster Two';
         font-size: 1.2em;
     }
 }
