@@ -117,7 +117,7 @@ a, a:hover, a:focus, a:active {
 }
 
 #footer-section{
-    background-color: #ffffff;
+    background-color: #f5f8fa;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
