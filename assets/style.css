@@ -183,6 +183,8 @@ a, a:hover, a:focus, a:active {
 }
 .project-head-link{
     color:#0b7fcc;
+    display: flex;
+    flex-direction: column;
 }
 .project-head-text{
     padding: 0px;
